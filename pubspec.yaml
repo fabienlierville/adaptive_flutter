@@ -1,8 +1,8 @@
 name: adaptive_flutter
-description: A new Flutter package.
+description: Apprendre un créer un package qui s'adapte selon l'OS utilisé
 version: 0.0.1
-author:
-homepage:
+author: Fabien LIERVILLE<flierville@cesi.fr>
+homepage: https://github.com/fabienlierville/adaptive_flutter
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
