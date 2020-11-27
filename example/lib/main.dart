@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Adaptive.text(string: "${Adaptive.isIOS()}", color: Colors.pink, size: 40.0, align: TextAlign.right),
+              Adaptive.text(string: "Notre App", color: Colors.pink, size: 40.0, align: TextAlign.right),
               Adaptive.button(
                 child: Adaptive.text(string: "Press me"),
                   onPressed: (){

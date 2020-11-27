@@ -9,7 +9,7 @@ Pour utiliser ce package, ajouter au `pubspec.yaml`:
 
 ```yaml
 dependencies:
- adaptive_codabee: ^0.0.1
+ adaptive_codabee: ^1.0.0
 ```
 
 ## Usage
