@@ -21,3 +21,37 @@ Dans le fichier Dart, importez :
 import 'package:adaptive_flutter/adaptive_flutter.dart';
 ```
 
+Utilisez le Scaffold
+```dart
+  Widget build(BuildContext context) {
+    return Adaptive.scaffold(
+        string: "Test package Adaptive",
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Adaptive.text(
+                  string: "Notre application s'adapte selon la plateforme",
+                color: Colors.red,
+                size: 25,
+                align: TextAlign.center
+              ),
+              Adaptive.button(
+                  child: Adaptive.text(string: "Press Me"),
+                  onPressed: (){
+                    print("test");
+                  }
+              ),
+              Adaptive.button(
+                  child: Adaptive.text(string: "Alert"),
+                  onPressed: (){
+                    Adaptive.alert(context: context);
+                  }
+              )
+            ],
+          ),
+        )
+    );
+  }
+```
+
