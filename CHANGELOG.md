@@ -1,3 +1,7 @@
+## [1.0.2] - 2020-06-18
+
+* Ajout de screenshot lien http
+
 ## [1.0.1] - 2020-06-18
 
 * Ajout de screenshot pour le Readme
