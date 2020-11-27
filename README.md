@@ -1,14 +1,21 @@
-# adaptive_flutter
+# Adaptive Flutter
 
-A new Flutter package.
+Apprendre à créer un package qui s'adapte selon l'OS utilisé.
+Ce package est destinée à la création d'applications [Flutter](https://flutter.io)
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Pour utiliser ce package, ajouter au `pubspec.yaml`:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+ adaptive_codabee: ^0.0.1
+```
+
+## Usage
+
+Dans le fichier Dart, importez :
+```dart
+import 'package:adaptive_flutter/adaptive_flutter.dart';
+```
+
