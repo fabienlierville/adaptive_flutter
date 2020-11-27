@@ -3,7 +3,7 @@
 Apprendre à créer un package qui s'adapte selon l'OS utilisé.
 Ce package est destinée à la création d'applications [Flutter](https://flutter.io)
 
-![ScreenShot](/screenshots/screen01.PNG)
+![ScreenShot](https://github.com/fabienlierville/adaptive_flutter/blob/master/screenshots/screen01.PNG)
 
 ## Getting Started
 
